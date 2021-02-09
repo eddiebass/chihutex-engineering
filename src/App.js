@@ -1,11 +1,12 @@
 import "./App.css";
+import HomePage from "./Pages/HomePage";
+import GlobalStyle from "./components/GlobalStyle";
 
 function App() {
 	return (
 		<div>
-			<header>
-				<h2>CHIHUTEX</h2>
-			</header>
+			<GlobalStyle />
+			<HomePage />
 		</div>
 	);
 }
