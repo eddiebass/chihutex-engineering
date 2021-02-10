@@ -7,12 +7,12 @@ const LandingPage = () => {
 	return (
 		<div>
 			<NavBar>
-				<div className="line">
+				<div className="logo">
 					<img src={logo} alt="logo" />
 					<div>
-						<h3>
+						<h4>
 							Chihutex <br />
-						</h3>
+						</h4>
 						<span>Engineering Ltd</span>
 					</div>
 				</div>
@@ -55,10 +55,10 @@ const NavBar = styled.nav`
 		padding-right: 10rem;
 		cursor: pointer;
 	}
-	.line {
+	.logo {
 		display: flex;
 	}
-	h3 {
+	h4 {
 		letter-spacing: 4px;
 		font-size: 1.2rem;
 	}
@@ -86,7 +86,7 @@ const HeadChildTwo = styled.div`
 	padding: 0rem 10rem;
 	overflow: hidden;
 	img {
-		width: 100%auto;
+		width: auto;
 		height: 80vh;
 		object-fit: cover;
 		border-radius: 3rem;

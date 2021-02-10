@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
 }
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: #2C2C2C;
 }
 button{
@@ -28,13 +28,18 @@ h1{
 h2{
     font-family: 'Playfair Display', serif;
     font-size: 4rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 h3{
-    font-family: 'Playfair Display', serif;  
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    padding-bottom: 3rem;  
+}
+h4{
+    font-family: 'Playfair Display', serif; 
 }
 p{
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     line-height: 145%;
 
 }
